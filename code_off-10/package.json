@@ -1,0 +1,17 @@
+{
+  "name": "code_off-10",
+  "version": "1.0.0",
+  "description": "## Premise You're competing in a battle on a far away planet and you're in some trouble. You need to send a distress call to your home base for reinforcements, however, enemy agents are listening. Luckily your team have a secret encoding for messages. It's Morse code with further obfuscation.",
+  "main": "code_off-10.js",
+  "scripts": {
+		"final": "node code_off-10.js",
+		"tsc": "tsc code_off-10.ts",
+    "test": "npm run tsc && npm run final",
+    "watch": "onchange '*.ts' -- npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "onchange": "^2.4.0"
+  }
+}
